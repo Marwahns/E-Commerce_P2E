@@ -350,68 +350,7 @@ void bayar(){
 	    cout<<"                                                               \t\t\n";}
 }
 
-void KodeWarnaiOS(){
-	if (kode[a] == 1 || kode[a] == 2) {
-		while (kdWarna < 1 || kdWarna > 4){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 3 || kode[a] == 4) {
-		while (kdWarna < 5 || kdWarna > 9){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 5 || kode[a] == 6) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 4 && kdWarna != 10){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 7 || kode[a] == 8) {
-		while (kdWarna != 6 && kdWarna != 11 && kdWarna != 12 && kdWarna != 13 && kdWarna != 14 && kdWarna != 9){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 9 || kode[a] == 10) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 15 && kdWarna != 16){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 11) {
-		while (kdWarna != 11 && kdWarna != 12 && kdWarna != 13 && kdWarna != 17 && kdWarna != 14 && kdWarna != 9){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 12 || kode[a] == 13) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 16){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 14) {
-		while (kdWarna != 18 && kdWarna != 13 && kdWarna != 17 && kdWarna != 14 && kdWarna != 9) {
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 15) {
-		while (kdWarna != 2 && kdWarna != 16){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 16 || kode[a] == 17) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 16 && kdWarna != 9){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-	}
-		
+void KodeWarna(){
 	if (kdWarna == 1) {
 		online[a].warna = "Sierra Blue";
 			
@@ -464,12 +403,441 @@ void KodeWarnaiOS(){
 		online[a].warna = "Yellow";
 			
 	} else if (kdWarna == 18) {
-		online[a].warna = "Blue Coral";		
+		online[a].warna = "Blue Coral";	
+	
+	} else if (kdWarna == 19) {
+		online[a].warna = "Phantom Black";
+			
+	} else if (kdWarna == 20) {
+		online[a].warna = "Phantom Green";
+			
+	} else if (kdWarna == 21) {
+		online[a].warna = "Phantom Silver";
+			
+	} else if (kdWarna == 22) {
+		online[a].warna = "Cream";
+		
+	} else if (kdWarna == 23) {
+		online[a].warna = "Lavender";
+			
+	} else if (kdWarna == 24) {
+		online[a].warna = "Phantom Violet";
+			
+	} else if (kdWarna == 25) {
+		online[a].warna = "Phantom Grey";
+			
+	} else if (kdWarna == 26) {
+		online[a].warna = "Phantom White";
+			
+	} else if (kdWarna == 27) {
+		online[a].warna = "Phantom Pink";
+			
+	} else if (kdWarna == 28) {
+		online[a].warna = "Mystic Bronze";
+			
+	} else if (kdWarna == 29) {
+		online[a].warna = "Mystic Black";
+			
+	} else if (kdWarna == 30) {
+		online[a].warna = "Mystic Green";
+				
+	} else if (kdWarna == 31) {
+		online[a].warna = "Mystic Gray";
+				
+	} else if (kdWarna == 32) {
+		online[a].warna = "Awesome Black";
+				
+	} else if (kdWarna == 33) {
+		online[a].warna = "Awesome Blue";
+				
+	} else if (kdWarna == 34) {
+		online[a].warna = "Awesome Violet";
+				
+	} else if (kdWarna == 35) {
+		online[a].warna = "Awesome White";
+				
+	} else if (kdWarna == 36) {
+		online[a].warna = "Light Blue";
+				
+	} else if (kdWarna == 37) {
+		online[a].warna = "Ceramic Black";
+			
+	} else if (kdWarna == 38) {
+		online[a].warna = "Ceramic White";
+			
+	} else if (kdWarna == 39) {
+		online[a].warna = "Celestial Blue";
+			
+	} else if (kdWarna == 40) {
+		online[a].warna = "Meteorite Gray";
+		
+	} else if (kdWarna == 41) {
+		online[a].warna = "Horizon Blue";
+			
+	} else if (kdWarna == 42) {
+		online[a].warna = "Boba Blue";
+			
+	} else if (kdWarna == 43) {
+		online[a].warna = "Bubblegum Blue";
+			
+	} else if (kdWarna == 44) {
+		online[a].warna = "Peach Pink";
+			
+	} else if (kdWarna == 45) {
+		online[a].warna = "Cloud White";
+			
+	} else if (kdWarna == 46) {
+		online[a].warna = "Stargaze Black";
+			
+	} else if (kdWarna == 47) {
+		online[a].warna = "Wave Blue";
+			
+	} else if (kdWarna == 48) {
+		online[a].warna = "Frost Blue";
+			
+	} else if (kdWarna == 49) {
+		online[a].warna = "Metal Bronze";
+			
+	} else if (kdWarna == 50) {
+		online[a].warna = "Cool Blue";
+			
+	} else if (kdWarna == 51) {
+		online[a].warna = "POCO Yellow";
+			
+	} else if (kdWarna == 52) {
+		online[a].warna = "Power Blue";
+			
+	} else if (kdWarna == 53) {
+		online[a].warna = "Arctic White";
+				
+	} else if (kdWarna == 54) {
+		online[a].warna = "Deep Ocean Blue";
+				
+	} else if (kdWarna == 55) {
+		online[a].warna = "Night Black";
+				
+	} else if (kdWarna == 56) {
+		online[a].warna = "Carbon Gray";
+				
+	} else if (kdWarna == 57) {
+		online[a].warna = "Pebble White";
+				
+	} else if (kdWarna == 58) {
+		online[a].warna = "Sea Blue";
+				
+	} else if (kdWarna == 59) {
+		online[a].warna = "Aurora Green";
+				
+	} else if (kdWarna == 60) {
+		online[a].warna = "Chrome Silver";
+				
+	} else if (kdWarna == 61) {
+		online[a].warna = "Graphite Gray";
+				
+	} else if (kdWarna == 62) {
+		online[a].warna = "Glacier Blue";
+				
+	} else if (kdWarna == 63) {
+		online[a].warna = "Gradient Bronze";
+				
+	} else if (kdWarna == 64) {
+		online[a].warna = "Onxy Gray";
+				
+	} else if (kdWarna == 65) {
+		online[a].warna = "Ocean Green";
+				
+	} else if (kdWarna == 66) {
+		online[a].warna = "Orange";
+				
+	} else if (kdWarna == 67) {
+		online[a].warna = "Twilight Blue";
+				
+	} else if (kdWarna == 68) {
+		online[a].warna = "Midnight Grey";
+				
+	} else if (kdWarna == 69) {
+		online[a].warna = "Sunrise Orange";
+				
+	} else if (kdWarna == 70) {
+		online[a].warna = "Dark Gray";
+				
+	} else if (kdWarna == 71) {
+		online[a].warna = "Gloss Black";
+			
+	} else if (kdWarna == 72) {
+		online[a].warna = "Blue";
+			
+	} else if (kdWarna == 73) {
+		online[a].warna = "Black Ceramic";
+			
+	} else if (kdWarna == 74) {
+		online[a].warna = "Orange Vegan Leather";
+		
+	} else if (kdWarna == 55) {
+		online[a].warna = "Ocean Glass";
+			
+	} else if (kdWarna == 76) {
+		online[a].warna = "Lunar Gray";
+			
+	} else if (kdWarna == 77) {
+		online[a].warna = "Arctic Blue";
+			
+	} else if (kdWarna == 78) {
+		online[a].warna = "Aurora";
+			
+	} else if (kdWarna == 79) {
+		online[a].warna = "Stellar Black";
+			
+	} else if (kdWarna == 80) {
+		online[a].warna = "Galastic Silver";
+			
+	} else if (kdWarna == 81) {
+		online[a].warna = "Fantasy Silver";
+			
+	} else if (kdWarna == 82) {
+		online[a].warna = "Fantastic Purple";
+			
+	} else if (kdWarna == 83) {
+		online[a].warna = "Dynamic Black";
+			
+	} else if (kdWarna == 84) {
+		online[a].warna = "Metalic White";
+		
+	} else if (kdWarna == 85) {
+		online[a].warna = "Matte Black";
+			
+	} else if (kdWarna == 86) {
+		online[a].warna = "Rainbow Silver";
+			
+	} else if (kdWarna == 87) {
+		online[a].warna = "Twilight Black";
+			
+	} else if (kdWarna == 88) {
+		online[a].warna = "Aurora Purple";
+				
+	} else if (kdWarna == 89) {
+		online[a].warna = "Shining White";
+				
+	} else if (kdWarna == 90) {
+		online[a].warna = "Fluid Black";
+				
+	} else if (kdWarna == 91) {
+		online[a].warna = "Space Silver";
+				
+	} else if (kdWarna == 92) {
+		online[a].warna = "Prism Black";
+				
+	} else if (kdWarna == 93) {
+		online[a].warna = "Starry Blue";
+				
+	} else if (kdWarna == 94) {
+		online[a].warna = "Crystal Black";
+				
+	} else if (kdWarna == 95) {
+		online[a].warna = "Pearl Blue";
+				
+	} else if (kdWarna == 96) {
+		online[a].warna = "Mistery Blue";
+				
+	} else if (kdWarna == 97) {
+		online[a].warna = "Fancy White";
+				
+	} else if (kdWarna == 98) {
+		online[a].warna = "Aurora Down";
+			
+	} else if (kdWarna == 99 {
+		online[a].warna = "Cosmic Black";
+			
+	} else if (kdWarna == 100) {
+		online[a].warna = "Midnight Black;
+			
+	} else if (kdWarna == 101) {
+		online[a].warna = "Shimmer Blue";
+		
+	} else if (kdWarna == 102) {
+		online[a].warna = "Alpha Grey";
+			
+	} else if (kdWarna == 103) {
+		online[a].warna = "Frost Blue";
+			
+	} else if (kdWarna == 104) {
+		online[a].warna = "Glaze Black";
+			
+	} else if (kdWarna == 105) {
+		online[a].warna = "Sunshine Coast";
+			
+	} else if (kdWarna == 106) {
+		online[a].warna = "Moonlight Shadow";
+			
+	} else if (kdWarna == 107) {
+		online[a].warna = "Dusk Blue";
+			
+	} else if (kdWarna == 108) {
+		online[a].warna = "Sunset Dazzle";
+			
+	} else if (kdWarna == 109) {
+		online[a].warna = "Midnight Jazz";
+			
+	} else if (kdWarna == 110) {
+		online[a].warna = "Sunset Melody";
+			
+	} else if (kdWarna == 111) {
+		online[a].warna = "Midnight Blue";
+			
+	} else if (kdWarna == 112) {
+		online[a].warna = "Pearl White";
+			
+	} else if (kdWarna == 113) {
+		online[a].warna = "Wave Green";
+			
+	} else if (kdWarna == 114) {
+		online[a].warna = "Mystic Blue";
+			
+	} else if (kdWarna == 115) {
+		online[a].warna = "Deep Sea Blue";
+				
+	} else if (kdWarna == 116) {
+		online[a].warna = "Purist Blue";
+				
+	} else if (kdWarna == 117) {
+		online[a].warna = "Obsidian Black";
+				
+	} else if (kdWarna == 118) {
+		online[a].warna = "Glowing Black";
+				
+	} else if (kdWarna == 119) {
+		online[a].warna = "Crystal Blue";
+				
+	} else if (kdWarna == 120) {
+		online[a].warna = "Fancy Sky";
+				
+	} else if (kdWarna == 121) {
+		online[a].warna = "Skyline Blue";
+				
+	} else if (kdWarna == 122) {
+		online[a].warna = "Cosmic Green";
+				
+	} else if (kdWarna == 123) {
+		online[a].warna = "Purist Blue";
+				
+	} else if (kdWarna == 124) {
+		online[a].warna = "Sonic Blue";
+				
+	} else if (kdWarna == 125) {
+		online[a].warna = "Sonic Black";
+				
+	} 
+	
+}
+
+void KodeMemori(){
+	if (kdMemory == 1) {
+		online[a].memori = 2;
+			
+	} else if (kdMemory == 2) {
+		online[a].memori = 3;
+			
+	} else if (kdMemory == 3) {
+		online[a].memori = 4;
+			
+	} else if (kdMemory == 4) {
+		online[a].memori = 6;
+			
+	} else if (kdMemory == 5) {
+		online[a].memori = 8;
+		
+	} else if (kdMemory == 6) {
+		online[a].memori = 12;
+		
+	} else if (kdMemory == 7) {
+		online[a].memori = 32;
+		
+	} else if (kdMemory == 8) {
+		online[a].memori = 64;
+		
+	} else if (kdMemory == 9) {
+		online[a].memori = 128;
+			
+	} else if (kdMemory == 10) {
+		online[a].memori = 256;
+			
+	} else if (kdMemory == 11) {
+		online[a].memori = 512;
+			
+	} else if (kdMemory == 12) {
+		online[a].memori = 1000;
+		
+	}
+
+}
+
+void KodeWarnaiOS(){
+	KodeWarna();
+	if (kode[a] == 1 || kode[a] == 2) {
+		while (kdWarna < 1 || kdWarna > 4){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 3 || kode[a] == 4) {
+		while (kdWarna < 5 || kdWarna > 9){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 5 || kode[a] == 6) {
+		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 4 && kdWarna != 10){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 7 || kode[a] == 8) {
+		while (kdWarna != 6 && kdWarna != 11 && kdWarna != 12 && kdWarna != 13 && kdWarna != 14 && kdWarna != 9){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 9 || kode[a] == 10) {
+		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 15 && kdWarna != 16){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 11) {
+		while (kdWarna != 11 && kdWarna != 12 && kdWarna != 13 && kdWarna != 17 && kdWarna != 14 && kdWarna != 9){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 12 || kode[a] == 13) {
+		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 16){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 14) {
+		while (kdWarna != 18 && kdWarna != 13 && kdWarna != 17 && kdWarna != 14 && kdWarna != 9) {
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 15) {
+		while (kdWarna != 2 && kdWarna != 16){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 16 || kode[a] == 17) {
+		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 16 && kdWarna != 9){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
 	}
 	
 }
 
 void KodeMemoryiOS(){
+	KodeMemori();
 	if (kode[a] == 1 || kode[a] == 2) {
 		while (kdMemory < 2 || kdMemory > 5){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
@@ -508,24 +876,10 @@ void KodeMemoryiOS(){
 		
 	}
 	
-	if (kdMemory == 1) {
-		online[a].memori = 64;
-			
-	} else if (kdMemory == 2) {
-		online[a].memori = 128;
-			
-	} else if (kdMemory == 3) {
-		online[a].memori = 256;
-			
-	} else if (kdMemory == 4) {
-		online[a].memori = 512;
-			
-	} else if (kdMemory == 5) {
-		online[a].memori = 1000;
-	}
 }
 
 void KodeWarnaSamsung(){
+	KodeWarna();
 	if (kode[a] == 1 || kode[a] == 2) {
 		while (kdWarna < 1 || kdWarna > 4){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
@@ -585,91 +939,12 @@ void KodeWarnaSamsung(){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
-	}
-		
-	if (kdWarna == 1) {
-		online[a].warna = "Phantom Black";
-			
-	} else if (kdWarna == 2) {
-		online[a].warna = "Phantom Green";
-			
-	} else if (kdWarna == 3) {
-		online[a].warna = "Phantom Silver";
-			
-	} else if (kdWarna == 4) {
-		online[a].warna = "Cream";
-		
-	} else if (kdWarna == 5) {
-		online[a].warna = "Green";
-			
-	} else if (kdWarna == 6) {
-		online[a].warna = "Lavender";
-			
-	} else if (kdWarna == 7) {
-		online[a].warna = "Phantom Violet";
-			
-	} else if (kdWarna == 8) {
-		online[a].warna = "Pink";
-			
-	} else if (kdWarna == 9) {
-		online[a].warna = "Blue";
-			
-	} else if (kdWarna == 10) {
-		online[a].warna = "Midnight";
-			
-	} else if (kdWarna == 11) {
-		online[a].warna = "Startlight";
-			
-	} else if (kdWarna == 12) {
-		online[a].warna = "Red";
-			
-	} else if (kdWarna == 13) {
-		online[a].warna = "Phantom Grey";
-			
-	} else if (kdWarna == 14) {
-		online[a].warna = "Phantom White";
-			
-	} else if (kdWarna == 15) {
-		online[a].warna = "Phantom Pink";
-			
-	} else if (kdWarna == 16) {
-		online[a].warna = "Mystic Bronze";
-			
-	} else if (kdWarna == 17) {
-		online[a].warna = "Mystic Black";
-			
-	} else if (kdWarna == 18) {
-		online[a].warna = "Mystic Green";
-				
-	} else if (kdWarna == 19) {
-		online[a].warna = "Mystic Gray";
-				
-	} else if (kdWarna == 20) {
-		online[a].warna = "Awesome Black";
-				
-	} else if (kdWarna == 21) {
-		online[a].warna = "Awesome Blue";
-				
-	} else if (kdWarna == 22) {
-		online[a].warna = "Awesome Violet";
-				
-	} else if (kdWarna == 23) {
-		online[a].warna = "Awesome White";
-				
-	} else if (kdWarna == 24) {
-		online[a].warna = "Black";
-				
-	} else if (kdWarna == 25) {
-		online[a].warna = "Light Blue";
-				
-	} else if (kdWarna == 26) {
-		online[a].warna = "White";
-				
 	}
 	
 }
 
 void KodeMemorySamsung(){
+	KodeMemori();
 	if (kode[a] == 1 || kode[a] == 6 || kode[a] == 7) {
 		while (kdMemory != 5 && kdMemory != 6){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
@@ -708,6 +983,274 @@ void KodeMemorySamsung(){
 		
 	}
 	
+}
+
+void KodeWarnaXiaomi(){
+	KodeWarna();
+	if (kode[a] == 1 || kode[a] == 2) {
+		while (kdWarna < 1 || kdWarna > 4){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 3 || kode[a] == 4) {
+		while (kdWarna < 5 || kdWarna > 9){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 5 || kode[a] == 6) {
+		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 4 && kdWarna != 10){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 7 || kode[a] == 8) {
+		while (kdWarna != 6 && kdWarna != 11 && kdWarna != 12 && kdWarna != 13 && kdWarna != 14 && kdWarna != 9){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 9 || kode[a] == 10) {
+		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 15 && kdWarna != 16){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 11) {
+		while (kdWarna != 11 && kdWarna != 12 && kdWarna != 13 && kdWarna != 17 && kdWarna != 14 && kdWarna != 9){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 12 || kode[a] == 13) {
+		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 16){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 14) {
+		while (kdWarna != 18 && kdWarna != 13 && kdWarna != 17 && kdWarna != 14 && kdWarna != 9) {
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 15) {
+		while (kdWarna != 2 && kdWarna != 16){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 16 || kode[a] == 17) {
+		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 16 && kdWarna != 9){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+	}
+
+}
+
+void KodeMemoryXiaomi(){
+	KodeMemori();
+	if (kode[a] == 1 || kode[a] == 6 || kode[a] == 7) {
+		while (kdMemory != 5 && kdMemory != 6){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
+		}
+		
+	} else if (kode[a] == 2 || kode[a] == 3 || kode[a] == 9 || kode[a] == 10 || kode[a] == 7) {
+		while (kdMemory != 4 && kdMemory != 5){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
+		}
+		
+	} else if (kode[a] == 4) {
+		while (kdMemory !=4 && kdMemory != 5 && kdMemory != 6){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
+		}
+		
+	} else if (kode[a] == 5 || kode[a] == 8) {
+		while (kdMemory != 5){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
+		}
+		
+	} else if (kode[a] == 11 || kode[a] == 13) {
+		while (kdMemory != 1 && kdMemory != 2){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
+		}
+		
+	} else if (kode[a] == 12) {
+		while (kdMemory != 4){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
+		}
+		
+	}
+	
+}
+
+void KodeWarnaOppo(){
+	KodeWarna();
+	if (kode[a] == 1 ) {
+		while (kdWarna != 1 && kdWarna != 2){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 2) {
+		while (kdWarna != 3 && kdWarna != 4){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 3) {
+		while (kdWarna != 5){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 4) {
+		while (kdWarna != 6 && kdWarna != 7){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 5|| kode[a] == 6) {
+		while (kdWarna != 8 && kdWarna != 9){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 7) {
+		while (kdWarna != 9){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 8) {
+		while (kdWarna != 10 && kdWarna != 9){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 9) {
+		while (kdWarna != 11 && kdWarna != 9) {
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 10) {
+		while (kdWarna != 12 && kdWarna != 13){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 11) {
+		while (kdWarna != 14 && kdWarna != 15){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 12) {
+		while (kdWarna != 16 && kdWarna != 9){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 13) {
+		while (kdWarna != 17 && kdWarna != 18 && kdWarna != 19){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 14) {
+		while (kdWarna != 20 && kdWarna != 21){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 15) {
+		while (kdWarna != 22 && kdWarna != 23){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 16) {
+		while (kdWarna != 24 && kdWarna != 25){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 17) {
+		while (kdWarna != 26 && kdWarna != 25 && kdWarna != 27){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 18) {
+		while (kdWarna != 28 && kdWarna != 22){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 19) {
+		while (kdWarna != 28 && kdWarna != 22 && kdWarna != 29){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} 
+	
+}
+
+void KodeMemoryOppo(){
+	if (kode[a] == 1) {
+		while (kdMemory != 5){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
+		}
+		
+	} else if (kode[a] == 2) {
+		while (kdMemory != 7){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
+		}
+		
+	} else if (kode[a] == 3 || kode[a] == 4) {
+		while (kdMemory != 6){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
+		}
+		
+	} else if (kode[a] == 5 || kode[a] == 6 || kode[a] == 7 || kode[a] == 8 || kode[a] == 9 || kode[a] == 10 || kode[a] == 11 || kode[a] == 12 || kode[a] == 14 || kode[a] == 15 || kode[a] == 16) {
+		while (kdMemory != 5){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
+		}
+		
+	} else if (kode[a] == 13) {
+		while (kdMemory != 1 && kdMemory != 2){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
+		}
+		
+	} else if (kode[a] == 17 || kode[a] == 18) {
+		while (kdMemory != 4){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
+		}
+		
+	} else if (kode[a] == 19) {
+		while (kdMemory != 3){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
+		}
+		
+	}
+	
 	if (kdMemory == 1) {
 		online[a].memori = 6;
 			
@@ -715,525 +1258,25 @@ void KodeMemorySamsung(){
 		online[a].memori = 8;
 			
 	} else if (kdMemory == 3) {
-		online[a].memori = 16;
+		online[a].memori = 32;
 			
 	} else if (kdMemory == 4) {
-		online[a].memori = 128;
+		online[a].memori = 64;
 			
 	} else if (kdMemory == 5) {
-		online[a].memori = 256;
+		online[a].memori = 128;
 		
 	} else if (kdMemory == 6) {
+		online[a].memori = 256;
+		
+	} else if (kdMemory == 7) {
 		online[a].memori = 512;
 		
 	}
 }
 
-void KodeWarnaXiaomi(){
-	if (kode[a] == 1 || kode[a] == 2) {
-		while (kdWarna < 1 || kdWarna > 4){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 3 || kode[a] == 4) {
-		while (kdWarna < 5 || kdWarna > 9){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 5 || kode[a] == 6) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 4 && kdWarna != 10){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 7 || kode[a] == 8) {
-		while (kdWarna != 6 && kdWarna != 11 && kdWarna != 12 && kdWarna != 13 && kdWarna != 14 && kdWarna != 9){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 9 || kode[a] == 10) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 15 && kdWarna != 16){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 11) {
-		while (kdWarna != 11 && kdWarna != 12 && kdWarna != 13 && kdWarna != 17 && kdWarna != 14 && kdWarna != 9){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 12 || kode[a] == 13) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 16){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 14) {
-		while (kdWarna != 18 && kdWarna != 13 && kdWarna != 17 && kdWarna != 14 && kdWarna != 9) {
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 15) {
-		while (kdWarna != 2 && kdWarna != 16){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 16 || kode[a] == 17) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 16 && kdWarna != 9){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-	}
-		
-	if (kdWarna == 1) {
-		online[a].warna = "Ceramic Black";
-			
-	} else if (kdWarna == 2) {
-		online[a].warna = "Ceramic White";
-			
-	} else if (kdWarna == 3) {
-		online[a].warna = "Celestial Blue";
-			
-	} else if (kdWarna == 4) {
-		online[a].warna = "Meteorite Gray";
-		
-	} else if (kdWarna == 5) {
-		online[a].warna = "Horizon Blue";
-			
-	} else if (kdWarna == 6) {
-		online[a].warna = "Boba Blue";
-			
-	} else if (kdWarna == 7) {
-		online[a].warna = "Bubblegum Blue";
-			
-	} else if (kdWarna == 8) {
-		online[a].warna = "Peach Pink";
-			
-	} else if (kdWarna == 9) {
-		online[a].warna = "Cloud White";
-			
-	} else if (kdWarna == 10) {
-		online[a].warna = "Stargaze Black";
-			
-	} else if (kdWarna == 11) {
-		online[a].warna = "Wave Blue";
-			
-	} else if (kdWarna == 12) {
-		online[a].warna = "Frost Blue";
-			
-	} else if (kdWarna == 13) {
-		online[a].warna = "Metal Bronze";
-			
-	} else if (kdWarna == 14) {
-		online[a].warna = "Phantom Black";
-			
-	} else if (kdWarna == 15) {
-		online[a].warna = "Cool Blue";
-			
-	} else if (kdWarna == 16) {
-		online[a].warna = "POCO Yellow";
-			
-	} else if (kdWarna == 17) {
-		online[a].warna = "Power Blue";
-			
-	} else if (kdWarna == 18) {
-		online[a].warna = "Arctic White";
-				
-	} else if (kdWarna == 19) {
-		online[a].warna = "Deep Ocean Blue";
-				
-	} else if (kdWarna == 20) {
-		online[a].warna = "Night Black";
-				
-	} else if (kdWarna == 21) {
-		online[a].warna = "Black";
-				
-	} else if (kdWarna == 22) {
-		online[a].warna = "Silver";
-				
-	} else if (kdWarna == 23) {
-		online[a].warna = "Carbon Gray";
-				
-	} else if (kdWarna == 24) {
-		online[a].warna = "Pebble White";
-				
-	} else if (kdWarna == 25) {
-		online[a].warna = "Sea Blue";
-				
-	} else if (kdWarna == 26) {
-		online[a].warna = "Aurora Green";
-				
-	} else if (kdWarna == 27) {
-		online[a].warna = "Chrome Silver";
-				
-	} else if (kdWarna == 28) {
-		online[a].warna = "Graphite Gray";
-				
-	} else if (kdWarna == 29) {
-		online[a].warna = "Glacier Blue";
-				
-	} else if (kdWarna == 30) {
-		online[a].warna = "Gradient Bronze";
-				
-	} else if (kdWarna == 31) {
-		online[a].warna = "Onxy Gray";
-				
-	} else if (kdWarna == 32) {
-		online[a].warna = "Blue";
-				
-	} else if (kdWarna == 33) {
-		online[a].warna = "Green";
-				
-	} else if (kdWarna == 34) {
-		online[a].warna = "Gray";
-				
-	} else if (kdWarna == 35) {
-		online[a].warna = "Ocean Green";
-				
-	} else if (kdWarna == 36) {
-		online[a].warna = "Orange";
-				
-	} else if (kdWarna == 37) {
-		online[a].warna = "Twilight Blue";
-				
-	} else if (kdWarna == 38) {
-		online[a].warna = "Midnight Grey";
-				
-	} else if (kdWarna == 39) {
-		online[a].warna = "Sunrise Orange";
-				
-	} else if (kdWarna == 39) {
-		online[a].warna = "Dark Gray";
-				
-	}
-	
-}
-
-void KodeMemoryXiaomi(){
-	if (kode[a] == 1 || kode[a] == 6 || kode[a] == 7) {
-		while (kdMemory != 5 && kdMemory != 6){
-			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Memori    :  ";cin>>kdMemory;
-		}
-		
-	} else if (kode[a] == 2 || kode[a] == 3 || kode[a] == 9 || kode[a] == 10 || kode[a] == 7) {
-		while (kdMemory != 4 && kdMemory != 5){
-			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Memori    :  ";cin>>kdMemory;
-		}
-		
-	} else if (kode[a] == 4) {
-		while (kdMemory !=4 && kdMemory != 5 && kdMemory != 6){
-			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Memori    :  ";cin>>kdMemory;
-		}
-		
-	} else if (kode[a] == 5 || kode[a] == 8) {
-		while (kdMemory != 5){
-			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Memori    :  ";cin>>kdMemory;
-		}
-		
-	} else if (kode[a] == 11 || kode[a] == 13) {
-		while (kdMemory != 1 && kdMemory != 2){
-			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Memori    :  ";cin>>kdMemory;
-		}
-		
-	} else if (kode[a] == 12) {
-		while (kdMemory != 4){
-			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Memori    :  ";cin>>kdMemory;
-		}
-		
-	}
-	
-	if (kdMemory == 1) {
-		online[a].memori = 2;
-			
-	} else if (kdMemory == 2) {
-		online[a].memori = 3;
-			
-	} else if (kdMemory == 3) {
-		online[a].memori = 4;
-			
-	} else if (kdMemory == 4) {
-		online[a].memori = 6;
-			
-	} else if (kdMemory == 5) {
-		online[a].memori = 8;
-		
-	} else if (kdMemory == 6) {
-		online[a].memori = 12;
-		
-	} else if (kdMemory == 7) {
-		online[a].memori = 128;
-		
-	} else if (kdMemory == 8) {
-		online[a].memori = 256;
-		
-	}
-}
-
-void KodeWarnaOppo(){
-	if (kode[a] == 1 || kode[a] == 2) {
-		while (kdWarna < 1 || kdWarna > 4){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 3 || kode[a] == 4) {
-		while (kdWarna < 5 || kdWarna > 9){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 5 || kode[a] == 6) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 4 && kdWarna != 10){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 7 || kode[a] == 8) {
-		while (kdWarna != 6 && kdWarna != 11 && kdWarna != 12 && kdWarna != 13 && kdWarna != 14 && kdWarna != 9){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 9 || kode[a] == 10) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 15 && kdWarna != 16){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 11) {
-		while (kdWarna != 11 && kdWarna != 12 && kdWarna != 13 && kdWarna != 17 && kdWarna != 14 && kdWarna != 9){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 12 || kode[a] == 13) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 16){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 14) {
-		while (kdWarna != 18 && kdWarna != 13 && kdWarna != 17 && kdWarna != 14 && kdWarna != 9) {
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 15) {
-		while (kdWarna != 2 && kdWarna != 16){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 16 || kode[a] == 17) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 16 && kdWarna != 9){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-	}
-		
-	if (kdWarna == 1) {
-		online[a].warna = "Ceramic Black";
-			
-	} else if (kdWarna == 2) {
-		online[a].warna = "Ceramic White";
-			
-	} else if (kdWarna == 3) {
-		online[a].warna = "Celestial Blue";
-			
-	} else if (kdWarna == 4) {
-		online[a].warna = "Meteorite Gray";
-		
-	} else if (kdWarna == 5) {
-		online[a].warna = "Horizon Blue";
-			
-	} else if (kdWarna == 6) {
-		online[a].warna = "Boba Blue";
-			
-	} else if (kdWarna == 7) {
-		online[a].warna = "Bubblegum Blue";
-			
-	} else if (kdWarna == 8) {
-		online[a].warna = "Peach Pink";
-			
-	} else if (kdWarna == 9) {
-		online[a].warna = "Cloud White";
-			
-	} else if (kdWarna == 10) {
-		online[a].warna = "Stargaze Black";
-			
-	} else if (kdWarna == 11) {
-		online[a].warna = "Wave Blue";
-			
-	} else if (kdWarna == 12) {
-		online[a].warna = "Frost Blue";
-			
-	} else if (kdWarna == 13) {
-		online[a].warna = "Metal Bronze";
-			
-	} else if (kdWarna == 14) {
-		online[a].warna = "Phantom Black";
-			
-	} else if (kdWarna == 15) {
-		online[a].warna = "Cool Blue";
-			
-	} else if (kdWarna == 16) {
-		online[a].warna = "POCO Yellow";
-			
-	} else if (kdWarna == 17) {
-		online[a].warna = "Power Blue";
-			
-	} else if (kdWarna == 18) {
-		online[a].warna = "Arctic White";
-				
-	} else if (kdWarna == 19) {
-		online[a].warna = "Deep Ocean Blue";
-				
-	} else if (kdWarna == 20) {
-		online[a].warna = "Night Black";
-				
-	} else if (kdWarna == 21) {
-		online[a].warna = "Black";
-				
-	} else if (kdWarna == 22) {
-		online[a].warna = "Silver";
-				
-	} else if (kdWarna == 23) {
-		online[a].warna = "Carbon Gray";
-				
-	} else if (kdWarna == 24) {
-		online[a].warna = "Pebble White";
-				
-	} else if (kdWarna == 25) {
-		online[a].warna = "Sea Blue";
-				
-	} else if (kdWarna == 26) {
-		online[a].warna = "Aurora Green";
-				
-	} else if (kdWarna == 27) {
-		online[a].warna = "Chrome Silver";
-				
-	} else if (kdWarna == 28) {
-		online[a].warna = "Graphite Gray";
-				
-	} else if (kdWarna == 29) {
-		online[a].warna = "Glacier Blue";
-				
-	} else if (kdWarna == 30) {
-		online[a].warna = "Gradient Bronze";
-				
-	} else if (kdWarna == 31) {
-		online[a].warna = "Onxy Gray";
-				
-	} else if (kdWarna == 32) {
-		online[a].warna = "Blue";
-				
-	} else if (kdWarna == 33) {
-		online[a].warna = "Green";
-				
-	} else if (kdWarna == 34) {
-		online[a].warna = "Gray";
-				
-	} else if (kdWarna == 35) {
-		online[a].warna = "Ocean Green";
-				
-	} else if (kdWarna == 36) {
-		online[a].warna = "Orange";
-				
-	} else if (kdWarna == 37) {
-		online[a].warna = "Twilight Blue";
-				
-	} else if (kdWarna == 38) {
-		online[a].warna = "Midnight Grey";
-				
-	} else if (kdWarna == 39) {
-		online[a].warna = "Sunrise Orange";
-				
-	} else if (kdWarna == 39) {
-		online[a].warna = "Dark Gray";
-				
-	}
-	
-}
-
-void KodeMemoryOppo(){
-	if (kode[a] == 1 || kode[a] == 6 || kode[a] == 7) {
-		while (kdMemory != 5 && kdMemory != 6){
-			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Memori    :  ";cin>>kdMemory;
-		}
-		
-	} else if (kode[a] == 2 || kode[a] == 3 || kode[a] == 9 || kode[a] == 10 || kode[a] == 7) {
-		while (kdMemory != 4 && kdMemory != 5){
-			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Memori    :  ";cin>>kdMemory;
-		}
-		
-	} else if (kode[a] == 4) {
-		while (kdMemory !=4 && kdMemory != 5 && kdMemory != 6){
-			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Memori    :  ";cin>>kdMemory;
-		}
-		
-	} else if (kode[a] == 5 || kode[a] == 8) {
-		while (kdMemory != 5){
-			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Memori    :  ";cin>>kdMemory;
-		}
-		
-	} else if (kode[a] == 11 || kode[a] == 13) {
-		while (kdMemory != 1 && kdMemory != 2){
-			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Memori    :  ";cin>>kdMemory;
-		}
-		
-	} else if (kode[a] == 12) {
-		while (kdMemory != 4){
-			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Memori    :  ";cin>>kdMemory;
-		}
-		
-	}
-	
-	if (kdMemory == 1) {
-		online[a].memori = 2;
-			
-	} else if (kdMemory == 2) {
-		online[a].memori = 3;
-			
-	} else if (kdMemory == 3) {
-		online[a].memori = 4;
-			
-	} else if (kdMemory == 4) {
-		online[a].memori = 6;
-			
-	} else if (kdMemory == 5) {
-		online[a].memori = 8;
-		
-	} else if (kdMemory == 6) {
-		online[a].memori = 12;
-		
-	} else if (kdMemory == 7) {
-		online[a].memori = 128;
-		
-	} else if (kdMemory == 8) {
-		online[a].memori = 256;
-		
-	}
-}
-
 void KodeWarnaVivo(){
+	KodeWarnaiOS();
 	if (kode[a] == 1 || kode[a] == 2) {
 		while (kdWarna < 1 || kdWarna > 4){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
@@ -1293,133 +1336,12 @@ void KodeWarnaVivo(){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
-	}
-		
-	if (kdWarna == 1) {
-		online[a].warna = "Ceramic Black";
-			
-	} else if (kdWarna == 2) {
-		online[a].warna = "Ceramic White";
-			
-	} else if (kdWarna == 3) {
-		online[a].warna = "Celestial Blue";
-			
-	} else if (kdWarna == 4) {
-		online[a].warna = "Meteorite Gray";
-		
-	} else if (kdWarna == 5) {
-		online[a].warna = "Horizon Blue";
-			
-	} else if (kdWarna == 6) {
-		online[a].warna = "Boba Blue";
-			
-	} else if (kdWarna == 7) {
-		online[a].warna = "Bubblegum Blue";
-			
-	} else if (kdWarna == 8) {
-		online[a].warna = "Peach Pink";
-			
-	} else if (kdWarna == 9) {
-		online[a].warna = "Cloud White";
-			
-	} else if (kdWarna == 10) {
-		online[a].warna = "Stargaze Black";
-			
-	} else if (kdWarna == 11) {
-		online[a].warna = "Wave Blue";
-			
-	} else if (kdWarna == 12) {
-		online[a].warna = "Frost Blue";
-			
-	} else if (kdWarna == 13) {
-		online[a].warna = "Metal Bronze";
-			
-	} else if (kdWarna == 14) {
-		online[a].warna = "Phantom Black";
-			
-	} else if (kdWarna == 15) {
-		online[a].warna = "Cool Blue";
-			
-	} else if (kdWarna == 16) {
-		online[a].warna = "POCO Yellow";
-			
-	} else if (kdWarna == 17) {
-		online[a].warna = "Power Blue";
-			
-	} else if (kdWarna == 18) {
-		online[a].warna = "Arctic White";
-				
-	} else if (kdWarna == 19) {
-		online[a].warna = "Deep Ocean Blue";
-				
-	} else if (kdWarna == 20) {
-		online[a].warna = "Night Black";
-				
-	} else if (kdWarna == 21) {
-		online[a].warna = "Black";
-				
-	} else if (kdWarna == 22) {
-		online[a].warna = "Silver";
-				
-	} else if (kdWarna == 23) {
-		online[a].warna = "Carbon Gray";
-				
-	} else if (kdWarna == 24) {
-		online[a].warna = "Pebble White";
-				
-	} else if (kdWarna == 25) {
-		online[a].warna = "Sea Blue";
-				
-	} else if (kdWarna == 26) {
-		online[a].warna = "Aurora Green";
-				
-	} else if (kdWarna == 27) {
-		online[a].warna = "Chrome Silver";
-				
-	} else if (kdWarna == 28) {
-		online[a].warna = "Graphite Gray";
-				
-	} else if (kdWarna == 29) {
-		online[a].warna = "Glacier Blue";
-				
-	} else if (kdWarna == 30) {
-		online[a].warna = "Gradient Bronze";
-				
-	} else if (kdWarna == 31) {
-		online[a].warna = "Onxy Gray";
-				
-	} else if (kdWarna == 32) {
-		online[a].warna = "Blue";
-				
-	} else if (kdWarna == 33) {
-		online[a].warna = "Green";
-				
-	} else if (kdWarna == 34) {
-		online[a].warna = "Gray";
-				
-	} else if (kdWarna == 35) {
-		online[a].warna = "Ocean Green";
-				
-	} else if (kdWarna == 36) {
-		online[a].warna = "Orange";
-				
-	} else if (kdWarna == 37) {
-		online[a].warna = "Twilight Blue";
-				
-	} else if (kdWarna == 38) {
-		online[a].warna = "Midnight Grey";
-				
-	} else if (kdWarna == 39) {
-		online[a].warna = "Sunrise Orange";
-				
-	} else if (kdWarna == 39) {
-		online[a].warna = "Dark Gray";
-				
 	}
 	
 }
 
 void KodeMemoryVivo(){
+	KodeMemori();
 	if (kode[a] == 1 || kode[a] == 6 || kode[a] == 7) {
 		while (kdMemory != 5 && kdMemory != 6){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
@@ -1458,31 +1380,6 @@ void KodeMemoryVivo(){
 		
 	}
 	
-	if (kdMemory == 1) {
-		online[a].memori = 2;
-			
-	} else if (kdMemory == 2) {
-		online[a].memori = 3;
-			
-	} else if (kdMemory == 3) {
-		online[a].memori = 4;
-			
-	} else if (kdMemory == 4) {
-		online[a].memori = 6;
-			
-	} else if (kdMemory == 5) {
-		online[a].memori = 8;
-		
-	} else if (kdMemory == 6) {
-		online[a].memori = 12;
-		
-	} else if (kdMemory == 7) {
-		online[a].memori = 128;
-		
-	} else if (kdMemory == 8) {
-		online[a].memori = 256;
-		
-	}
 }
 
 void iOS(){
@@ -2526,150 +2423,149 @@ void Oppo(){
 		}
     	 
 	    if(kode[a]==2){
-	     {if(memori[a]==512)
-		  online[a].hrg[a]=14999000;
-		  
-		  else
-		  online[a].hrg[a]=0;}
+	    	if(online[a].memori==512){
+		    	online[a].hrg[a]=14999000;
+		    		
+			} 
+			
 	  	}
 	    
 	    if(kode[a]==3){
-	     {if(memori[a]==256)
-		  online[a].hrg[a]=11999000;
-		
-		  else
-		  online[a].hrg[a]=0;}
+	    	if(online[a].memori==256){
+		    	online[a].hrg[a]=11999000;
+		    		
+			} 
+			
 	   	} 
 	    
 	    if(kode[a]==4){
-	     {if(memori[a]==256)
-		  online[a].hrg[a]=10999000;
-		
-		  else
-		  online[a].hrg[a]=0;}
+	    	if(online[a].memori==256){
+		    	online[a].hrg[a]=10999000;
+		    		
+			} 
+			
 	   	}
 	    
 	    if(kode[a]==5){
-	   	 {if(memori[a]==128)
-		  online[a].hrg[a]=18999000;
-		  
-		  else
-		  online[a].hrg[a]=0;}
+	    	if(online[a].memori==128){
+		    	online[a].hrg[a]=18999000;
+		    		
+			} 
+			
 	  	}
 	  	    
 	  	if(kode[a]==6){
-	   	 {if(memori[a]==128)
-		  online[a].hrg[a]=4999000;
-		  
-		 else
-		 online[a].hrg[a]=0;}
+	  		if(online[a].memori==128){
+		    	online[a].hrg[a]=4999000;
+		    		
+			} 
+			
 	  	}
 	  	    
 	  	if(kode[a]==7){
-	   	 {if(memori[a]==128)
-	      online[a].hrg[a]=9999000;
-		
-		  else
-		  online[a].hrg[a]=0;}
+	  		if(online[a].memori==128){
+		    	online[a].hrg[a]=9999000;
+		    		
+			} 
+			
 	  	}
 	  	    
 	  	if(kode[a]==8){
-	   	 {if(memori[a]==128)
-		  online[a].hrg[a]=5999000;
-		  
-		  else
-		  online[a].hrg[a]=0;}
+	  		if(online[a].memori==128){
+		    	online[a].hrg[a]=5999000;
+		    		
+			} 
+			
 	  	}
 	
 	  	if(kode[a]==9){
-	   	 {if(memori[a]==128)
-		  online[a].hrg[a]=4499000;
-		  
-		  else
-		  online[a].hrg[a]=0;}
+	  		if(online[a].memori==128){
+		    	online[a].hrg[a]=4499000;
+		    		
+			} 
+			
 	  	}
 	  	    
 	  	if(kode[a]==10){
-	   	 {if(memori[a]==128)
-		  online[a].hrg[a]=3999000;
-		
-		  else
-		  online[a].hrg[a]=0;}
+	  		if(online[a].memori==128){
+		    	online[a].hrg[a]=3999000;
+		    		
+			} 
+			
 	  	}
 	  	    
 	  	if(kode[a]==11){
-	   	 {if(memori[a]==128)
-		   online[a].hrg[a]=3299000;
-		
-		  else
-		  online[a].hrg[a]=0;}
+	  		if(online[a].memori==128){
+		    	online[a].hrg[a]=3299000;
+		    		
+			} 
+			
 	  	}
 	  	    
 	  	if(kode[a]==12){
-	   	 {if(memori[a]==128)
-		  online[a].hrg[a]=3999000;
-		
-		  else
-		  online[a].hrg[a]=0;}
+	  		if(online[a].memori==128){
+		    	online[a].hrg[a]=3999000;
+		    		
+			} 
 	  	}
 	  	    
 	  	if(kode[a]==13){
-	   	 {if(memori[a]==6)
-		  online[a].hrg[a]=3599000;
-		  
-		  else if(memori[a]==8)
-		  online[a].hrg[a]=4199000;
-		  
-		  else
-		  online[a].hrg[a]=0;}
+	  		if(online[a].memori==6){
+		    	online[a].hrg[a]=3599000;
+		    	
+			} else if(online[a].memori==8){
+		    	online[a].hrg[a]=4199000;
+		    		
+			} 
+			
 	  	}
 	  	    
 	    if(kode[a]==14){
-	     {if(memori[a]==128)
-		  online[a].hrg[a]=3599000;
-		  
-		  else
-		  online[a].hrg[a]=0;}
+	    	if(online[a].memori==128){
+		    	online[a].hrg[a]=3599000;
+		    		
+			} 
+			
 	  	}
 	  	    
 	  	if(kode[a]==15){
-	   	 {if(memori[a]==128)
-		  online[a].hrg[a]=3399000;
-			   
-		  else
-		  online[a].hrg[a]=0;}
+	  		if(online[a].memori==128){
+		    	online[a].hrg[a]=3399000;
+		    		
+			} 
+			
 	  	}
 	  	    
 	  	if(kode[a]==16){
-	   	 {if(memori[a]==128)
-		  online[a].hrg[a]=3099000;
-			   
-		  else
-		  online[a].hrg[a]=0;}
+	  		if(online[a].memori==128){
+		    	online[a].hrg[a]=3099000;
+		    		
+			} 
+			
 	  	}
 	  	    
 	  	if(kode[a]==17){
-	   	 {if(memori[a]==64)
-		   online[a].hrg[a]=2499000;
-		  
-		  else
-		  online[a].hrg[a]=0;}
+	  		if(online[a].memori==64){
+		    	online[a].hrg[a]=2499000;
+		    		
+			} 
+		
 	  	}
 	  	    
 	  	if(kode[a]==18){
-	   	 {if(memori[a]==64)
-		  online[a].hrg[a]=2199000;
-			   
-		  else
-		  online[a].hrg[a]=0;}
+	  		if(online[a].memori==64){
+		    	online[a].hrg[a]=2199000;
+		    		
+			} 
+			
 	  	}
 	  	    
 	  	if(kode[a]==19){
-	   	 {if(memori[a]==32)
-		  online[a].hrg[a]=1799000;
-			   
-		  else
-		  online[a].hrg[a]=0;}
+	  		if(online[a].memori==32){
+		    	online[a].hrg[a]=1799000;
+		    		
+			} 
+			
 	  	}
 		
 	  	cout<<"   Harga        :  Rp "<<online[a].hrg[a]<<endl;
