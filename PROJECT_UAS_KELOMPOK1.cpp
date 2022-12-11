@@ -475,7 +475,7 @@ void KodeWarna(){
 		online[a].warna = "Horizon Blue";
 			
 	} else if (kdWarna == 42) {
-		online[a].warna = "Boba Blue";
+		online[a].warna = "Boba Black";
 			
 	} else if (kdWarna == 43) {
 		online[a].warna = "Bubblegum Blue";
@@ -505,7 +505,7 @@ void KodeWarna(){
 		online[a].warna = "POCO Yellow";
 			
 	} else if (kdWarna == 52) {
-		online[a].warna = "Power Blue";
+		online[a].warna = "Power Black";
 			
 	} else if (kdWarna == 53) {
 		online[a].warna = "Arctic White";
@@ -553,7 +553,7 @@ void KodeWarna(){
 		online[a].warna = "Twilight Blue";
 				
 	} else if (kdWarna == 68) {
-		online[a].warna = "Midnight Grey";
+		online[a].warna = "Midnight Gray";
 				
 	} else if (kdWarna == 69) {
 		online[a].warna = "Sunrise Orange";
@@ -565,7 +565,7 @@ void KodeWarna(){
 		online[a].warna = "Gloss Black";
 			
 	} else if (kdWarna == 72) {
-		online[a].warna = "Blue";
+		online[a].warna = "Gray";
 			
 	} else if (kdWarna == 73) {
 		online[a].warna = "Black Ceramic";
@@ -573,7 +573,7 @@ void KodeWarna(){
 	} else if (kdWarna == 74) {
 		online[a].warna = "Orange Vegan Leather";
 		
-	} else if (kdWarna == 55) {
+	} else if (kdWarna == 75) {
 		online[a].warna = "Ocean Glass";
 			
 	} else if (kdWarna == 76) {
@@ -586,7 +586,7 @@ void KodeWarna(){
 		online[a].warna = "Aurora";
 			
 	} else if (kdWarna == 79) {
-		online[a].warna = "Stellar Black";
+		online[a].warna = "Starry Black";
 			
 	} else if (kdWarna == 80) {
 		online[a].warna = "Galastic Silver";
@@ -637,7 +637,7 @@ void KodeWarna(){
 		online[a].warna = "Pearl Blue";
 				
 	} else if (kdWarna == 96) {
-		online[a].warna = "Mistery Blue";
+		online[a].warna = "Mystery Blue";
 				
 	} else if (kdWarna == 97) {
 		online[a].warna = "Fancy White";
@@ -645,11 +645,11 @@ void KodeWarna(){
 	} else if (kdWarna == 98) {
 		online[a].warna = "Aurora Down";
 			
-	} else if (kdWarna == 99 {
+	} else if (kdWarna == 99) {
 		online[a].warna = "Cosmic Black";
 			
 	} else if (kdWarna == 100) {
-		online[a].warna = "Midnight Black;
+		online[a].warna = "Midnight Black";
 			
 	} else if (kdWarna == 101) {
 		online[a].warna = "Shimmer Blue";
@@ -725,6 +725,30 @@ void KodeWarna(){
 				
 	} else if (kdWarna == 125) {
 		online[a].warna = "Sonic Black";
+				
+	} else if (kdWarna == 126) {
+		online[a].warna = "Moonlight White";
+				
+	} else if (kdWarna == 127) {
+		online[a].warna = "Crystal White";
+				
+	} else if (kdWarna == 128) {
+		online[a].warna = "Silk White";
+				
+	} else if (kdWarna == 129) {
+		online[a].warna = "Satin Black";
+				
+	} else if (kdWarna == 130) {
+		online[a].warna = "Mirror Black";
+				
+	} else if (kdWarna == 131) {
+		online[a].warna = "Midday Black";
+				
+	} else if (kdWarna == 132) {
+		online[a].warna = "Fantastic Rainbow";
+				
+	} else if (kdWarna == 133) {
+		online[a].warna = "Stellar Black";
 				
 	} 
 	
@@ -839,39 +863,39 @@ void KodeWarnaiOS(){
 void KodeMemoryiOS(){
 	KodeMemori();
 	if (kode[a] == 1 || kode[a] == 2) {
-		while (kdMemory < 2 || kdMemory > 5){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdMemory;
+		while (kdMemory < 9 || kdMemory > 12){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
 	} else if (kode[a] == 3 || kode[a] == 4 || kode[a] == 5 || kode[a] == 6 || kode[a] == 7) {
-		while (kdMemory < 2 || kdMemory > 4){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdMemory;
+		while (kdMemory < 9 || kdMemory > 11){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
 	} else if (kode[a] == 8 || kode[a] == 11 || kode[a] == 16 || kode[a] == 17) {
-		while (kdMemory < 1 || kdMemory > 3){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdMemory;
+		while (kdMemory < 8 || kdMemory > 10){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
 	} else if (kode[a] == 9 || kode[a] == 10 || kode[a] == 12|| kode[a] == 13) {
-		while (kdMemory != 1 && kdMemory != 3 && kdMemory != 4){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdMemory;
+		while (kdMemory != 8 && kdMemory != 10 && kdMemory != 11){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
 	} else if (kode[a] == 14) {
-		while (kdMemory != 1 && kdMemory != 2){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdMemory;
+		while (kdMemory != 8 && kdMemory != 9){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
 	} else if (kode[a] == 15) {
-		while (kdMemory != 1 && kdMemory != 3){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdMemory;
+		while (kdMemory != 8 && kdMemory != 10){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
 	}
@@ -880,62 +904,62 @@ void KodeMemoryiOS(){
 
 void KodeWarnaSamsung(){
 	KodeWarna();
-	if (kode[a] == 1 || kode[a] == 2) {
-		while (kdWarna < 1 || kdWarna > 4){
+	if (kode[a] == 1) {
+		while (kdWarna < 19 || kdWarna > 21){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
-	} else if (kode[a] == 3 || kode[a] == 4) {
-		while (kdWarna < 5 || kdWarna > 9){
+	} else if (kode[a] == 2) {
+		while (kdWarna != 22 && kdWarna != 19 && kdWarna != 11 && kdWarna != 23){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
-	} else if (kode[a] == 5 || kode[a] == 6) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 4 && kdWarna != 10){
+	} else if (kode[a] == 3) {
+		while (kdWarna != 24 && kdWarna != 21 && kdWarna != 19){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 4) {
+		while (kdWarna != 5 && kdWarna != 6 && kdWarna != 7 && kdWarna != 8 && kdWarna != 9){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 5) {
+		while (kdWarna < 24 || kdWarna > 27){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] ==  6) {
+		while (kdWarna != 28 && kdWarna != 29){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 7 || kode[a] == 8) {
-		while (kdWarna != 6 && kdWarna != 11 && kdWarna != 12 && kdWarna != 13 && kdWarna != 14 && kdWarna != 9){
+		while (kdWarna != 28 && kdWarna != 30 && kdWarna != 31){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
-	} else if (kode[a] == 9 || kode[a] == 10) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 15 && kdWarna != 16){
+	} else if (kode[a] == 9 && kode[a] == 10) {
+		while (kdWarna < 32 || kdWarna > 35) {
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 11) {
-		while (kdWarna != 11 && kdWarna != 12 && kdWarna != 13 && kdWarna != 17 && kdWarna != 14 && kdWarna != 9){
+		while (kdWarna != 32 && kdWarna != 35){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 12 || kode[a] == 13) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 16){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 14) {
-		while (kdWarna != 18 && kdWarna != 13 && kdWarna != 17 && kdWarna != 14 && kdWarna != 9) {
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 15) {
-		while (kdWarna != 2 && kdWarna != 16){
-			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Warna    :  ";cin>>kdWarna;
-		}
-		
-	} else if (kode[a] == 16 || kode[a] == 17) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 16 && kdWarna != 9){
+		while (kdWarna != 14 && kdWarna != 36 && kdWarna != 13){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
@@ -946,37 +970,37 @@ void KodeWarnaSamsung(){
 void KodeMemorySamsung(){
 	KodeMemori();
 	if (kode[a] == 1 || kode[a] == 6 || kode[a] == 7) {
-		while (kdMemory != 5 && kdMemory != 6){
+		while (kdMemory != 10 && kdMemory != 11){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
 	} else if (kode[a] == 2 || kode[a] == 3 || kode[a] == 9 || kode[a] == 10 || kode[a] == 7) {
-		while (kdMemory != 4 && kdMemory != 5){
+		while (kdMemory != 9 && kdMemory != 10){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
 	} else if (kode[a] == 4) {
-		while (kdMemory !=4 && kdMemory != 5 && kdMemory != 6){
+		while (kdMemory < 9 || kdMemory  > 11){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
 	} else if (kode[a] == 5 || kode[a] == 8) {
-		while (kdMemory != 5){
+		while (kdMemory != 10){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
 	} else if (kode[a] == 11 || kode[a] == 13) {
-		while (kdMemory != 1 && kdMemory != 2){
+		while (kdMemory != 4 && kdMemory != 5){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
 	} else if (kode[a] == 12) {
-		while (kdMemory != 4){
+		while (kdMemory != 9){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
@@ -987,62 +1011,103 @@ void KodeMemorySamsung(){
 
 void KodeWarnaXiaomi(){
 	KodeWarna();
-	if (kode[a] == 1 || kode[a] == 2) {
-		while (kdWarna < 1 || kdWarna > 4){
+	if (kode[a] == 1) {
+		while (kdWarna != 37 && kdWarna != 38){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
-	} else if (kode[a] == 3 || kode[a] == 4) {
-		while (kdWarna < 5 || kdWarna > 9){
+	} else if (kode[a] == 2) {
+		while (kdWarna != 39 && kdWarna != 40 && kdWarna != 126){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
-	} else if (kode[a] == 5 || kode[a] == 6) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 4 && kdWarna != 10){
+	} else if (kode[a] == 3) {
+		while (kdWarna != 40){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
-	} else if (kode[a] == 7 || kode[a] == 8) {
-		while (kdWarna != 6 && kdWarna != 11 && kdWarna != 12 && kdWarna != 13 && kdWarna != 14 && kdWarna != 9){
+	} else if (kode[a] == 4) {
+		while (kdWarna != 41){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
-	} else if (kode[a] == 9 || kode[a] == 10) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 15 && kdWarna != 16){
+	} else if (kode[a] == 5) {
+		while (kdWarna < 42 || kdWarna > 44){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
-	} else if (kode[a] == 11) {
-		while (kdWarna != 11 && kdWarna != 12 && kdWarna != 13 && kdWarna != 17 && kdWarna != 14 && kdWarna != 9){
+	} else if (kode[a] == 6) {
+		while (kdWarna < 45 || kdWarna > 47){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
-	} else if (kode[a] == 12 || kode[a] == 13) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 16){
+	} else if (kode[a] == 7) {
+		while (kdWarna != 48 && kdWarna != 49 && kdWarna != 19){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
+	} else if (kode[a] == 8) {
+		while (kdWarna < 50 || kdWarna > 52) {
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 9) {
+		while (kdWarna < 53 || kdWarna > 55){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 10 || kode[a] == 11) {
+		while (kdWarna != 14 && kdWarna != 2){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 12) {
+		while (kdWarna < 56 || kdWarna > 58){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 13) {
+		while (kdWarna < 59 || kdWarna > 61){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
 	} else if (kode[a] == 14) {
-		while (kdWarna != 18 && kdWarna != 13 && kdWarna != 17 && kdWarna != 14 && kdWarna != 9) {
+		while (kdWarna < 62 || kdWarna > 64){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 15) {
-		while (kdWarna != 2 && kdWarna != 16){
+		while (kdWarna != 6 && kdWarna != 11 && kdWarna != 72){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
-	} else if (kode[a] == 16 || kode[a] == 17) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 16 && kdWarna != 9){
+	} else if (kode[a] == 16) {
+		while (kdWarna != 56 && kdWarna != 65 && kdWarna != 66 && kdWarna != 67){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 17) {
+		while (kdWarna != 68 && kdWarna != 69 && kdWarna != 67){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 18) {
+		while (kdWarna != 6 && kdWarna != 70 && kdWarna != 11){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
@@ -1052,152 +1117,182 @@ void KodeWarnaXiaomi(){
 
 void KodeMemoryXiaomi(){
 	KodeMemori();
-	if (kode[a] == 1 || kode[a] == 6 || kode[a] == 7) {
+	if (kode[a] == 1) {
+		while (kdMemory != 10){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
+		}
+		
+	} else if (kode[a] == 2) {
 		while (kdMemory != 5 && kdMemory != 6){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
-	} else if (kode[a] == 2 || kode[a] == 3 || kode[a] == 9 || kode[a] == 10 || kode[a] == 7) {
+	} else if (kode[a] == 3 || kode[a] == 4) {
+		while (kdMemory != 10){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
+		}
+		
+	} else if (kode[a] == 5 || kode[a] == 14) {
 		while (kdMemory != 4 && kdMemory != 5){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
-	} else if (kode[a] == 4) {
-		while (kdMemory !=4 && kdMemory != 5 && kdMemory != 6){
+	} else if (kode[a] == 6) {
+		while (kdMemory != 9 && kdMemory != 10){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
-	} else if (kode[a] == 5 || kode[a] == 8) {
-		while (kdMemory != 5){
+	} else if (kode[a] == 7 || kode[a] == 9) {
+		while (kdMemory != 9 && kdMemory != 10){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
-	} else if (kode[a] == 11 || kode[a] == 13) {
+	} else if (kode[a] == 8 || kode[a] == 12 || kode[a] == 16) {
+		while (kdMemory != 8 && kdMemory != 9){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
+		}
+		
+	} else if (kode[a] == 11) {
+		while (kdMemory != 9){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
+		}
+		
+	} else if (kode[a] == 13) {
+		while (kdMemory != 3 && kdMemory != 5){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
+		}
+		
+	} else if (kode[a] == 15) {
+		while (kdMemory != 7 && kdMemory != 8){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
+		}
+		
+	} else if (kode[a] == 16) {
 		while (kdMemory != 1 && kdMemory != 2){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
-	} else if (kode[a] == 12) {
-		while (kdMemory != 4){
-			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
-			cout<<" Kode Memori    :  ";cin>>kdMemory;
-		}
-		
-	}
+	} 
 	
 }
 
 void KodeWarnaOppo(){
 	KodeWarna();
 	if (kode[a] == 1 ) {
-		while (kdWarna != 1 && kdWarna != 2){
+		while (kdWarna != 71 && kdWarna != 6){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 2) {
-		while (kdWarna != 3 && kdWarna != 4){
+		while (kdWarna != 73 && kdWarna != 74){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 3) {
-		while (kdWarna != 5){
+		while (kdWarna != 73 && kdWarna != 75){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 4) {
-		while (kdWarna != 6 && kdWarna != 7){
+		while (kdWarna != 76 && kdWarna != 77){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
-	} else if (kode[a] == 5|| kode[a] == 6) {
-		while (kdWarna != 8 && kdWarna != 9){
+	} else if (kode[a] == 5 || kode[a] == 6) {
+		while (kdWarna != 78 && kdWarna != 133){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 7) {
-		while (kdWarna != 9){
+		while (kdWarna != 79){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 8) {
-		while (kdWarna != 10 && kdWarna != 9){
+		while (kdWarna != 80 && kdWarna != 79){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 9) {
-		while (kdWarna != 11 && kdWarna != 9) {
+		while (kdWarna != 81 && kdWarna != 79) {
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 10) {
-		while (kdWarna != 12 && kdWarna != 13){
+		while (kdWarna != 82 && kdWarna != 83){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 11) {
-		while (kdWarna != 14 && kdWarna != 15){
+		while (kdWarna != 84 && kdWarna != 85){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 12) {
-		while (kdWarna != 16 && kdWarna != 9){
+		while (kdWarna != 86 && kdWarna != 79){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 13) {
-		while (kdWarna != 17 && kdWarna != 18 && kdWarna != 19){
+		while (kdWarna < 87 || kdWarna > 89){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 14) {
-		while (kdWarna != 20 && kdWarna != 21){
+		while (kdWarna != 90 && kdWarna != 91){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 15) {
-		while (kdWarna != 22 && kdWarna != 23){
+		while (kdWarna != 111 && kdWarna != 92){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 16) {
-		while (kdWarna != 24 && kdWarna != 25){
+		while (kdWarna != 93 && kdWarna != 94){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 17) {
-		while (kdWarna != 26 && kdWarna != 25 && kdWarna != 27){
+		while (kdWarna != 95 && kdWarna != 94 && kdWarna != 91){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 18) {
-		while (kdWarna != 28 && kdWarna != 22){
+		while (kdWarna != 94 && kdWarna != 83){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 19) {
-		while (kdWarna != 28 && kdWarna != 22 && kdWarna != 29){
+		while (kdWarna != 94 && kdWarna != 83 && kdWarna != 97){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
@@ -1207,173 +1302,207 @@ void KodeWarnaOppo(){
 }
 
 void KodeMemoryOppo(){
+	KodeMemori();
 	if (kode[a] == 1) {
-		while (kdMemory != 5){
+		while (kdMemory != 9){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
 	} else if (kode[a] == 2) {
-		while (kdMemory != 7){
+		while (kdMemory != 11){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
 	} else if (kode[a] == 3 || kode[a] == 4) {
-		while (kdMemory != 6){
+		while (kdMemory != 10){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
 	} else if (kode[a] == 5 || kode[a] == 6 || kode[a] == 7 || kode[a] == 8 || kode[a] == 9 || kode[a] == 10 || kode[a] == 11 || kode[a] == 12 || kode[a] == 14 || kode[a] == 15 || kode[a] == 16) {
-		while (kdMemory != 5){
+		while (kdMemory != 9){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
 	} else if (kode[a] == 13) {
-		while (kdMemory != 1 && kdMemory != 2){
+		while (kdMemory != 4 && kdMemory != 5){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
 	} else if (kode[a] == 17 || kode[a] == 18) {
-		while (kdMemory != 4){
+		while (kdMemory != 8){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
 	} else if (kode[a] == 19) {
-		while (kdMemory != 3){
+		while (kdMemory != 7){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
 	}
 	
-	if (kdMemory == 1) {
-		online[a].memori = 6;
-			
-	} else if (kdMemory == 2) {
-		online[a].memori = 8;
-			
-	} else if (kdMemory == 3) {
-		online[a].memori = 32;
-			
-	} else if (kdMemory == 4) {
-		online[a].memori = 64;
-			
-	} else if (kdMemory == 5) {
-		online[a].memori = 128;
-		
-	} else if (kdMemory == 6) {
-		online[a].memori = 256;
-		
-	} else if (kdMemory == 7) {
-		online[a].memori = 512;
-		
-	}
 }
 
 void KodeWarnaVivo(){
-	KodeWarnaiOS();
-	if (kode[a] == 1 || kode[a] == 2) {
-		while (kdWarna < 1 || kdWarna > 4){
+	KodeWarna();
+	if (kode[a] == 1) {
+		while (kdWarna != 98 && kdWarna != 99){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
-	} else if (kode[a] == 3 || kode[a] == 4) {
-		while (kdWarna < 5 || kdWarna > 9){
+	} else if (kode[a] == 2 || kode[a] == 3) {
+		while (kdWarna != 100 || kdWarna != 101){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
-	} else if (kode[a] == 5 || kode[a] == 6) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 4 && kdWarna != 10){
+	} else if (kode[a] == 4) {
+		while (kdWarna != 102){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
-	} else if (kode[a] == 7 || kode[a] == 8) {
-		while (kdWarna != 6 && kdWarna != 11 && kdWarna != 12 && kdWarna != 13 && kdWarna != 14 && kdWarna != 9){
+	} else if (kode[a] == 5) {
+		while (kdWarna != 103 && kdWarna != 104){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
-	} else if (kode[a] == 9 || kode[a] == 10) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 15 && kdWarna != 16){
+	} else if (kode[a] == 6) {
+		while (kdWarna != 105 && kdWarna != 106){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 7) {
+		while (kdWarna != 107 && kdWarna != 108){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 8) {
+		while (kdWarna != 109 && kdWarna != 110){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 9) {
+		while (kdWarna != 77 && kdWarna != 127) {
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 10) {
+		while (kdWarna != 128 && kdWarna != 129){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 11) {
-		while (kdWarna != 11 && kdWarna != 12 && kdWarna != 13 && kdWarna != 17 && kdWarna != 14 && kdWarna != 9){
+		while (kdWarna != 130 && kdWarna != 131){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
-	} else if (kode[a] == 12 || kode[a] == 13) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 16){
+	} else if (kode[a] == 12) {
+		while (kdWarna != 111 && kdWarna != 112){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 13) {
+		while (kdWarna != 113 && kdWarna != 114){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 14) {
-		while (kdWarna != 18 && kdWarna != 13 && kdWarna != 17 && kdWarna != 14 && kdWarna != 9) {
+		while (kdWarna != 115 && kdWarna != 132){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
 	} else if (kode[a] == 15) {
-		while (kdWarna != 2 && kdWarna != 16){
+		while (kdWarna != 116 && kdWarna != 117){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
 		
-	} else if (kode[a] == 16 || kode[a] == 17) {
-		while (kdWarna != 2 && kdWarna != 3 && kdWarna != 16 && kdWarna != 9){
+	} else if (kode[a] == 16) {
+		while (kdWarna < 118 || kdWarna > 120){
 			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Warna    :  ";cin>>kdWarna;
 		}
+		
+	} else if (kode[a] == 17) {
+		while (kdWarna != 121 && kdWarna != 122){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 18) {
+		while (kdWarna != 123 && kdWarna != 117){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
+	} else if (kode[a] == 19) {
+		while (kdWarna != 124 && kdWarna != 125){
+			cout<<" Warna Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Warna    :  ";cin>>kdWarna;
+		}
+		
 	}
 	
 }
 
 void KodeMemoryVivo(){
 	KodeMemori();
-	if (kode[a] == 1 || kode[a] == 6 || kode[a] == 7) {
-		while (kdMemory != 5 && kdMemory != 6){
+	if (kode[a] == 1 || kode[a] == 2 || kode[a] == 3 || kode[a] == 4 || kode[a] == 5) {
+		while (kdMemory != 10){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
-	} else if (kode[a] == 2 || kode[a] == 3 || kode[a] == 9 || kode[a] == 10 || kode[a] == 7) {
-		while (kdMemory != 4 && kdMemory != 5){
+	} else if (kode[a] == 6 || kode[a] == 7 || kode[a] == 8 || kode[a] == 10 || kode[a] == 11 || kode[a] == 12 || kode[a] == 14 || kode[a] == 17) {
+		while (kdMemory != 9){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
-	} else if (kode[a] == 4) {
-		while (kdMemory !=4 && kdMemory != 5 && kdMemory != 6){
+	} else if (kode[a] == 9 || kode[a] == 16) {
+		while (kdMemory != 9 && kdMemory != 10){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
-	} else if (kode[a] == 5 || kode[a] == 8) {
-		while (kdMemory != 5){
+	} else if (kode[a] == 13) {
+		while (kdMemory != 7){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
-	} else if (kode[a] == 11 || kode[a] == 13) {
-		while (kdMemory != 1 && kdMemory != 2){
+	} else if (kode[a] == 15 || kode[a] == 18) {
+		while (kdMemory != 12 && kdMemory != 64){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
 		
-	} else if (kode[a] == 12) {
-		while (kdMemory != 4){
+	} else if (kode[a] == 17) {
+		while (kdMemory != 9){
+			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
+			cout<<" Kode Memori    :  ";cin>>kdMemory;
+		}
+		
+	} else if (kode[a] == 19) {
+		while (kdMemory != 8 && kdMemory != 9){
 			cout<<" Memori Tidak Tersedia!"<<endl<<endl;
 			cout<<" Kode Memori    :  ";cin>>kdMemory;
 		}
@@ -1389,7 +1518,7 @@ void iOS(){
     cout<<" =========================================================================================================================================================================="<<endl;
     cout<<" | Kd |       Model         |                    Warna                   |              Memori             |                              Harga                           |"<<endl;
     cout<<" --------------------------------------------------------------------------------------------------------------------------------------------------------------------------"<<endl;
-    cout<<" | 1  |  iPhone 13 Pro Max  |  Sierra Blue, Silver, Gold, Graphite       | 128 GB, 256 GB, 512 GB, 1000 GB | Rp 19.999.000; Rp 22.999.000; Rp 26.999.000; Rp 30.999.000 |"<<endl;
+    cout<<" | 1  |  iPhone 13 Pro Max  |  Sierra Blue, Silver, Gold, Graphite       | 128 GB, 256 GB, 512 GB, 1000 GB |  Rp 19.999.000; Rp 22.999.000; Rp 26.999.000; Rp 30.999.000 |"<<endl;
     cout<<" | 2  |  iPhone 13 Pro      |  Sierra Blue, Silver, Gold, Graphite       | 128 GB, 256 GB, 512 GB, 1000 GB |  Rp 18.499.000; Rp 20.999.000; Rp 24.999.000; Rp 28.999.000  |"<<endl;
     cout<<" | 3  |  iPhone 13          |  Pink, Blue, Midnight, Starlight, Red      | 128 GB, 256 GB, 512 GB          |  Rp 14.999.000; Rp 17.499.000; Rp 20.999.000                 |"<<endl;
     cout<<" | 4  |  iPhone 13 Mini     |  Pink, Blue, Midnight, Starlight, Red      | 128 GB, 256 GB, 512 GB          |  Rp 12.999.000; Rp 15.499.000; Rp 18.999.000                 |"<<endl;
@@ -1407,8 +1536,18 @@ void iOS(){
     cout<<" | 16 |  iPhone 8 Plus      |  Silver, Gold, Space Grey, Red             | 64 GB, 128 GB, 256 GB           |  Rp 9.499.000; Rp 11.999.000; Rp 12.999.000                  |"<<endl;
     cout<<" | 17 |  iPhone 8           |  Silver, Gold, Space Grey, Red             | 64 GB, 128 GB, 256 GB           |  Rp 7.499.000; Rp 9.999.000; Rp 10.499.000                   |"<<endl;
     cout<<" =========================================================================================================================================================================="<<endl;
-    cout<<" Note:"<<endl;
-    cout<<" Harap Masukkan Warna Yang Tersedia, Jika Memilih Warna Selain Yang Ada Di Menu, Maka Akan Dikirim Secara Random"<<endl<<endl;
+    cout<<" Kode Warna:"<<endl;
+    cout<<" [1] Sierra Blue                 [7] Midnight                  [13] White"<<endl;
+    cout<<" [2] Silver                      [8] Starlight                 [14] Black"<<endl;
+    cout<<" [3] Gold                        [9] Red                       [15] Midnight Green"<<endl;
+    cout<<" [4] Graphite                    [10] Pacific Blue             [16] Space Grey"<<endl;
+    cout<<" [5] Pink                        [11] Green                    [17] Yellow"<<endl;
+    cout<<" [6] Blue                        [12] Purple                   [18] Blue Coral"<<endl;
+    cout<<endl;
+    
+    cout<<" Kode Memori:"<<endl;
+    cout<<" [8] 64            [9] 128          [10] 256"<<endl;          
+	cout<<" [11] 512          [12] 1000"<<endl<<endl;
     
     belanja :
     cout<<" Masukkan Berapa Banyak Handphone Yang Ingin Anda Beli: ";cin>>n;
@@ -1601,10 +1740,10 @@ void iOS(){
 			if(online[a].memori==64){
 	    		online[a].hrg[a]=16499000;
 	    		
-		  	} else if(online[a].memori==128) {
+		  	} else if(online[a].memori==256) {
 		   		online[a].hrg[a]=19999000;
 		   		
-		   	} else if(online[a].memori==256) {
+		   	} else if(online[a].memori==512) {
 		   		online[a].hrg[a]=22999000;
 		   		
 		   	}
@@ -1789,10 +1928,21 @@ void Samsung(){
 	cout<<"  | 12 | Galaxy M52 5G          | Black, Light Blue, White                      | 8 GB+128 GB                              | Rp 5.399.000                                |"<<endl;
 	cout<<"  | 13 | Galaxy M32             | Black, Light Blue, White                      | 6 GB+128 GB, 8 GB+128 GB                 | Rp 2.999.000; Rp 3.299.000                  |"<<endl;
 	cout<<"  ========================================================================================================================================================================"<<endl;
-	cout<<"  Note:"<<endl;
-	cout<<"  Harap Masukkan Warna Yang Tersedia, Jika Memilih Warna Selain Yang Ada Di Menu, Maka Akan Dikirim Secara Random"<<endl;
-	cout<<"  Untuk kode 1-10 & 12 pilih jumlah RAM yang tersedia pada model"<<endl;
-	cout<<"  Untuk kode 11 & 13 pilih junlah ROM yang tersedia pada model"<<endl<<endl;
+	cout<<"  Kode Warna:"<<endl;
+    cout<<"  [19] Phantom Black               [5] Pink                       [25] Phantom Gray           [31] Mystic Gray             [36] Light Blue"<<endl;
+    cout<<"  [20] Phantom Green               [6] Blue                       [26] Phantom White          [32] Awesome Black           [13] White"<<endl;
+    cout<<"  [21] Phantom Silver              [7] Midnight                   [27] Phantom Pink           [33] Awesome Blue"<<endl;
+    cout<<"  [22] Cream                       [8] Starlight                  [28] Mystic Bronze          [34] Awesome Violet"<<endl;
+    cout<<"  [23] Lavender                    [9] Red                        [29] Mystic Black           [35] Awesome White"<<endl;
+    cout<<"  [24] Phantom Violet              [24] Phantom Violet            [30] Mystic Green           [14] Black"<<endl;
+    cout<<endl;
+    
+    cout<<"  Kode Memori:"<<endl;
+    cout<<"  [4] 6              [5] 8          [9] 128"<<endl;          
+	cout<<"  [10] 256          [11] 512"<<endl<<endl;
+	
+	cout<<"  Untuk Kode Hanphone 1-10 & 12 pilih jumlah RAM yang tersedia pada model"<<endl;
+	cout<<"  Untuk Kode Hanphone 11 & 13 pilih jumlah ROM yang tersedia pada model"<<endl<<endl;
 	 	
 	cout<<"  Masukkan Berapa Banyak Handphone Yang Ingin Anda Beli: ";cin>>n;
     while (n < 1){
@@ -2070,8 +2220,25 @@ void Xiaomi(){
 		cout<<"   |  17  | Redmi 9C          | Midnight Gray, Sunrise Orange, Twilight Blue    | 3 GB + 32 GB, 4 GB + 64 GB                |  Rp 1.499.000; Rp 1.699.000               |"<<endl;
 		cout<<"   |  18  | Redmi 9A          | Blue, Dark Gray, Green                          | 2 GB + 32 GB, 3 GB + 32 GB                |  Rp 1.299.000; Rp 1.399.000               |"<<endl;
     	cout<<"   ======================================================================================================================================================================"<<endl;
-    	cout<<"   Note:"<<endl;
-    	cout<<"   Harap Masukkan Warna Yang Tersedia, Jika Memilih Warna Selain Yang Ada Di Menu, Maka Akan Dikirim Secara Random"<<endl;
+    	cout<<"   Kode Warna:"<<endl;
+	    cout<<"   [37] Ceramic Black               [45] Cloud White                [53] Arctic White           [60] Chrome Silver           [66] Orange"<<endl;
+	    cout<<"   [38] Ceramic White               [46] Stargaze Black             [54] Deep Ocean Blue        [61] Graphite Gray           [67] Twilight Blue"<<endl;
+	    cout<<"   [39] Celestial Blue              [47] Wave Black                 [55]  Night Black           [62] Glacier Blue            [68] Midnight Gray"<<endl;
+	    cout<<"   [40] Meteorite Gray              [48] Forst Blue                 [14] Black                  [63] Gradient Bronze         [69] Sunrise Orange"<<endl;
+	    cout<<"   [126] Moonlight White            [49] Metal Bronze               [2]  Silver                 [64] Onxy Gray               [70] Dark Gray"<<endl;
+	    cout<<"   [41] Horizon Blue                [19] Phantom Black              [56] Carbon Gray            [6] Blue"<<endl;
+	    cout<<"   [42] Boba Black                  [50] Cool Blue                  [57] Pebble White           [11] Green"<<endl;
+	    cout<<"   [43] Bubblegum Blue              [51] POCO Yellow                [58] Sea Blue               [72] Gray"<<endl;
+	    cout<<"   [44] Peach Pink                  [52] Power Black                [59] Aurora Green           [65] Ocean Green"<<endl;
+	    cout<<endl;
+	    
+	    cout<<"   Kode Memori:"<<endl;
+	    cout<<"   [1] 2          [2] 3          [4] 6"<<endl;
+		cout<<"   [5] 8          [6] 12         [7] 32"<<endl;
+		cout<<"   [8] 64         [9] 128        [10] 256"<<endl;
+	    
+	    cout<<endl;
+	    
     	cout<<"   Untuk kode 1-4, 6-11 & 16-17 pilih jumlah RAM yang tersedia pada model"<<endl;
 		cout<<"   Untuk kode 5, 12-14, & 18 pilih junlah ROM yang tersedia pada model"<<endl<<endl;
 		
@@ -2384,8 +2551,24 @@ void Oppo(){
 	cout<<"  |  18  |   Oppo A15s                   |   Mystery Blue, Dynamic Black                     |   4 GB + 64 GB                 |   Rp 2.199.000                           |"<<endl;
 	cout<<"  |  19  |   Oppo A15                    |   Mystery Blue, Dynamic Black, Fancy White        |   3 GB + 32 GB                 |   Rp 1.799.000                           |"<<endl;
 	cout<<"  ========================================================================================================================================================================"<<endl;
-	cout<<"  Note:"<<endl;
-	cout<<"  Harap Masukkan Warna Yang Tersedia, Jika Memilih Warna Selain Yang Ada Di Menu, Maka Akan Dikirim Secara Random"<<endl;
+	cout<<"   Kode Warna:"<<endl;
+	cout<<"   [71] Gloss Black                 [79] Starry Black               [88] Aurora Purpple         [96] Mystery Blue"<<endl;
+    cout<<"   [6]  Blue                        [80] Galactic Silver            [89] Shining White          [97] Fancy White"<<endl;
+	cout<<"   [73] Black Ceramic               [81] Fantasy Silver             [90] Fluid Black"<<endl;
+    cout<<"   [74] Orange Vegan Leather        [82] Fantastuc Purlple          [91] Space Silver"<<endl;
+	cout<<"   [75] Ocean Glass                 [83] Dynamic Black              [111] Midnight Blue"<<endl;
+    cout<<"   [76] Lunar Gray                  [84] Metalic White              [92] Prism Black"<<endl;
+	cout<<"   [77] Arctic Blue                 [85] Matte Black                [93] Crystal Black"<<endl;
+    cout<<"   [78] Aurora                      [86] Rainbow Silver             [94] Pearl Blue"<<endl;
+	cout<<"   [133] Stellar Black              [87] Twilight Black             [95] Space Silver"<<endl;
+    cout<<endl;
+	    
+	cout<<"   Kode Memori:"<<endl;
+    cout<<"   [4] 6          [5] 8          [7] 32"<<endl;
+	cout<<"   [8] 64         [9] 128        [10] 256"<<endl;
+	    
+	cout<<endl;
+	
 	cout<<"  Untuk kode nomor 1-12 & 14-19 pilih jumlah RAM yang tersedia pada model"<<endl;
 	cout<<"  Untuk kode nomor 13 pilih jumlah ROM yang tersedia pada model"<<endl<<endl;
 	    
@@ -2661,8 +2844,25 @@ void Vivo(){
 	cout<<"     |  18  |   Vivo Y20s                |   Purist Blue, Obsidian Black                |   6 GB + 128 GB, 8 GB + 128 GB   |   Rp 2.799.000; Rp 2.999.000            |"<<endl;
 	cout<<"     |  19  |   Vivo Z1 Pro              |   Sonic Blue, Sonic Black                    |   4 GB + 64 GB, 6 GB + 128 GB    |   Rp 2.699.000; Rp 3.499.000            |"<<endl;
 	cout<<"     ================================================================================================================================================================="<<endl;
-	cout<<"     Note:"<<endl;
-	cout<<"     Harap Masukkan Warna Yang Tersedia, Jika Memilih Warna Selain Yang Ada Di Menu, Maka Akan Dikirim Secara Random"<<endl;
+	
+	cout<<"    Kode Warna:"<<endl;
+	cout<<"    [98]  Aurora Drawn                [107] Dusk Blue                  [131] Midday Black           [124] Sonic Blue"<<endl;
+    cout<<"    [99]  Cosmic Black                [108] Sunset Dazzle              [111] Midnight Blue          [125] Sonic Black"<<endl;
+	cout<<"    [100] Midnight Black              [109] Midnight Jazz              [112] Pearl White"<<endl;
+    cout<<"    [101] Shimmer Blue                [110] Sunset Melody              [113] Wave Green"<<endl;
+	cout<<"    [102] Alpha Grey                  [77]  Arctic Blue                 [114] Mystic Blue"<<endl;
+    cout<<"    [103] Frost Blue                  [127] Crystal White              [115] Deep Sea Blue"<<endl;
+	cout<<"    [104] Glaze Black                 [128] Silk White                 [132] Fantastic Rainbow"<<endl;
+    cout<<"    [105] Sunshine Coast              [129] Satin Black                [123] Purist Blue"<<endl;
+	cout<<"    [106] Moonlight Shadow            [130] Mirror Black               [117] Obsidian Black"<<endl;
+    cout<<endl;
+	    
+	cout<<"    Kode Memori:"<<endl;
+    cout<<"    [4] 6          [5] 8          [7] 32"<<endl;
+	cout<<"    [8] 64         [9] 128        [10] 256"<<endl;
+	    
+	cout<<endl;
+
 	cout<<"     Untuk kode nomor 1-13, 15, 16 & 18 pilih jumlah RAM yang tersedia pada model"<<endl;
 	cout<<"     Untuk kode nomor 14 & 17 pilih jumlah ROM yang tersedia pada model"<<endl<<endl;
 	    
