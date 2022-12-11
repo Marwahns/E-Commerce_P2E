@@ -10,7 +10,7 @@ using namespace std;
 int kode_pilihan, memilih, pilihan, kode[20], memori[10], kdWarna, kdMemory;
 int ongkir, pilih, a, n, m, i;
 char username[50], warna[20], nabar[20], nm[30], almt[25], nohp[14], kota[25], ul, lan, checkout;
-long int total_byr=0;
+long int total_byr, total_belanja;
 long int ttl[50];
 string user, password, str;
 
@@ -281,8 +281,9 @@ int main(int argc, char * argv[]){
 	cout<<endl<<endl<<endl;
 	cout<<"                                                                            TERIMA KASIH ATAS KUNJUNGAN ANDA";
  	
- 	return 0;
+ 	//return 0;
  	system("pause");
+ 	goto login;
 }
 
 void gotoxy(int x, int y){
@@ -326,28 +327,32 @@ void bayar(){
         cout<<"                                                               \t              Pesanan Akan Segera Dikirim         \n";
 	    cout<<"                                                               \t            ****Barang Yang Sudah Dibeli****      \n";
 	    cout<<"                                                               \t             ***Tidak Dapat Dikembalikan***       \n";
-	    cout<<"                                                               \t\t\n";}
-	else if(pilih==2&&pilih==02){
+	    cout<<"                                                               \t\t\n";
+	    
+	} else if(pilih==2&&pilih==02){
 	    cout<<"     No.Rekening : 35154656565 "<<endl<<endl<<endl;
 	    cout<<"                                                               \t  Terima Kasih Sudah Berbelanja di P3E STORE \n"; 
 	    cout<<"                                                               \t         Pesanan Akan Segera Dikirim         \n";
 	    cout<<"                                                               \t       ****Barang Yang Sudah Dibeli****      \n";
 	    cout<<"                                                               \t        ***Tidak Dapat Dikembalikan***       \n";
-	    cout<<"                                                               \t\t\n";}
-	else if(pilih==3&&pilih==03){
+	    cout<<"                                                               \t\t\n";
+	    
+	} else if(pilih==3&&pilih==03){
 	    cout<<"     No.Rekening : 12314235435 "<<endl<<endl<<endl;
 	    cout<<"                                                               \t  Terima Kasih Sudah Berbelanja di P3E STORE \n"; 
 	    cout<<"                                                               \t        Pesanan Akan Segera Dikirim         \n";
 	    cout<<"                                                               \t      ****Barang Yang Sudah Dibeli****      \n";
 	    cout<<"                                                               \t       ***Tidak Dapat Dikembalikan***       \n";
-	    cout<<"                                                               \t\t\n";}
-	else if(pilih==4&&pilih==04){
+	    cout<<"                                                               \t\t\n";
+	    
+	} else if(pilih==4&&pilih==04){
 	    cout<<endl<<endl<<endl;
 	    cout<<"                                                               \t  Terima Kasih Sudah Berbelanja di P3E STORE \n"; 
 	    cout<<"                                                               \t         Pesanan Akan Segera Dikirim         \n";
 	    cout<<"                                                               \t       ****Barang Yang Sudah Dibeli****      \n";
 	    cout<<"                                                               \t        ***Tidak Dapat Dikembalikan***       \n";
-	    cout<<"                                                               \t\t\n";}
+	    cout<<"                                                               \t\t\n";
+	}
 }
 
 void KodeWarna(){
@@ -1854,9 +1859,8 @@ void iOS(){
 		 	cout<<" Minimal Pembelian 1 Barang!"<<endl<<endl;
 		 	cout<<" Jumlah Beli  :  ";cin>>online[a].jmlh[a];
 		}
-	 
-		ttl[a]=online[a].jmlh[a]*online[a].hrg[a];
-		cout<<endl;
+	 	ttl[a]=online[a].jmlh[a]*online[a].hrg[a];
+	 	cout<<endl;
 	}
 	
 	cout<<" Lanjut Berbelanja [y/t] : ";cin>>lan;
@@ -1880,7 +1884,7 @@ void iOS(){
 		 	ttl[a]=online[a].jmlh[a]*online[a].hrg[a];
 			gotoxy(108,9+a);cout<<"Rp "<<ttl[a];
 	 		gotoxy(129,9+a);cout<<"|";
-		 	total_byr=total_byr+ttl[a];
+		 	total_byr=ttl[a];
 		}
 		cout<<endl;
 		 	
@@ -1888,8 +1892,8 @@ void iOS(){
 		cout<<"     ============================================================================================================================="<<endl;        
 		cout<<"     |                                          Ongkir                                                    |"<<" Rp "<<ongkir<<"             |"<<endl; 
 		cout<<"     ============================================================================================================================="<<endl;        
-	    total_byr=total_byr+ttl[a]+ongkir;
-		cout<<"     |                                       Total Belanja                                                |"<<" Rp "<<total_byr<<endl;
+	    total_belanja=total_byr+ongkir;
+		cout<<"     |                                       Total Belanja                                                |"<<" Rp "<<total_belanja<<endl;
 	    cout<<"     ============================================================================================================================="<<endl<<endl;
 	    cout<<"     Data Yang Anda Inputkan Akan Digunakan Dalam Proses Transaksi Dan Pengiriman."<<endl;
 	   	cout<<"     Kerahasiaan Data Akan Menjadi Tanggung Jawab Perusahaan."<<endl<<endl<<endl;
@@ -2140,7 +2144,8 @@ void Samsung(){
 		while (online[a].jmlh[a] < 1){
 			cout<<endl;
 			cout<<"  Minimal Pembelian 1 Barang!"<<endl<<endl;
-			cout<<"  Jumlah Beli  :  ";cin>>online[a].jmlh[a];}
+			cout<<"  Jumlah Beli  :  ";cin>>online[a].jmlh[a];
+		}
 		
 		ttl[a]=online[a].jmlh[a]*online[a].hrg[a];
 		cout<<endl;
@@ -2173,8 +2178,8 @@ void Samsung(){
 	 		cout<<"     ============================================================================================================================="<<endl;        
 	 		cout<<"     |                                          Ongkir                                                    |"<<" Rp "<<ongkir<<"             |"<<endl; 
 	 		cout<<"     ============================================================================================================================="<<endl;        
-     		total_byr=total_byr+ttl[a]+ongkir;
-	 		cout<<"     |                                      Total Belanja                                                 |"<<" Rp "<<total_byr<<endl;
+     		total_belanja=total_byr+ongkir;
+	 		cout<<"     |                                      Total Belanja                                                 |"<<" Rp "<<total_belanja<<endl;
      		cout<<"     ============================================================================================================================="<<endl<<endl;
      		cout<<"     Data Yang Anda Inputkan Akan Digunakan Dalam Proses Transaksi Dan Pengiriman."<<endl;
      		cout<<"     Kerahasiaan Data Akan Menjadi Tanggung Jawab Perusahaan."<<endl<<endl<<endl;
@@ -2500,8 +2505,8 @@ void Xiaomi(){
 		 	cout<<"     ============================================================================================================================="<<endl;        
 		 	cout<<"     |                                          Ongkir                                                    |"<<" Rp "<<ongkir<<"             |"<<endl; 
 		 	cout<<"     ============================================================================================================================="<<endl;        
-	     	total_byr=total_byr+ttl[a]+ongkir;
-		 	cout<<"     |                                       Total Belanja                                                |"<<" Rp "<<total_byr<<endl;
+	     	total_belanja=total_byr+ongkir;
+		 	cout<<"     |                                       Total Belanja                                                |"<<" Rp "<<total_belanja<<endl;
 	     	cout<<"     ============================================================================================================================="<<endl<<endl;
 	     	cout<<"     Data Yang Anda Inputkan Akan Digunakan Dalam Proses Transaksi Dan Pengiriman."<<endl;
 	     	cout<<"     Kerahasiaan Data Akan Menjadi Tanggung Jawab Perusahaan."<<endl<<endl<<endl;
@@ -2793,8 +2798,8 @@ void Oppo(){
 	 	cout<<"     ============================================================================================================================="<<endl;        
 	 	cout<<"     |                                          Ongkir                                                    |"<<" Rp "<<ongkir<<"             |"<<endl; 
 	 	cout<<"     ============================================================================================================================="<<endl;        
-     	total_byr=total_byr+ttl[a]+ongkir;
-	 	cout<<"     |                                       Total Belanja                                                |"<<" Rp "<<total_byr<<endl;
+     	total_belanja=total_byr+ongkir;
+	 	cout<<"     |                                       Total Belanja                                                |"<<" Rp "<<total_belanja<<endl;
      	cout<<"     ============================================================================================================================="<<endl<<endl;
      	cout<<"     Data Yang Anda Inputkan Akan Digunakan Dalam Proses Transaksi Dan Pengiriman."<<endl;
      	cout<<"     Kerahasiaan Data Akan Menjadi Tanggung Jawab Perusahaan."<<endl<<endl<<endl;
@@ -3102,8 +3107,8 @@ void Vivo(){
 	 	cout<<"     ============================================================================================================================="<<endl;        
 	 	cout<<"     |                                          Ongkir                                                    |"<<" Rp "<<ongkir<<"             |"<<endl; 
 	 	cout<<"     ============================================================================================================================="<<endl;        
-     	total_byr=total_byr+ttl[a]+ongkir;
-	 	cout<<"     |                                       Total Belanja                                                |"<<" Rp "<<total_byr<<endl;
+     	total_belanja=total_byr+ongkir;
+	 	cout<<"     |                                       Total Belanja                                                |"<<" Rp "<<total_belanja<<endl;
      	cout<<"     ============================================================================================================================="<<endl<<endl;
      	cout<<"     Data Yang Anda Inputkan Akan Digunakan Dalam Proses Transaksi Dan Pengiriman."<<endl;
      	cout<<"     Kerahasiaan Data Akan Menjadi Tanggung Jawab Perusahaan."<<endl<<endl<<endl;
